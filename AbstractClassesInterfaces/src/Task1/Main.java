@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         // тест класса Human
         Human human1 = new Human();
         Human human2 = new Human("Игорь",35,"Муж.");
@@ -19,9 +20,16 @@ public class Main {
         human1.outputHuman();
         human2.outputHuman();
         human3.outputHuman();
-       // тест builder
 
-        //Builder builder1 = new Builder();
+       // тест builder
+        Builder builder1 = new Builder();
+        builder1.outputBuilder();
+        builder1.work();
+
+        // тест sailor
+        Sailor sailor = new Sailor();
+        sailor.outputSailor();
+        sailor.sail();
 
     }
 

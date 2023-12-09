@@ -1,5 +1,4 @@
 package Task1;
-
 class Human {
     private String name;
     private int age;
