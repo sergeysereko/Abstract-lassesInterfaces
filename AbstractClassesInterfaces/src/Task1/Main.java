@@ -31,6 +31,12 @@ public class Main {
         sailor.outputSailor();
         sailor.sail();
 
+        // тест Pilot
+        Pilot pilot = new Pilot();
+        pilot.outputPilot();
+        pilot.fly();
+
+
     }
 
 }
