@@ -21,6 +21,8 @@ public class Main {
         human3.outputHuman();
        // тест builder
 
+        //Builder builder1 = new Builder();
+
     }
 
 }

@@ -8,6 +8,11 @@ public class Builder extends Human {
         this.specialization = specialization;
     }
 
+    public Builder() {
+        super("", 0, "");
+        this.specialization = "Сварщик";
+    }
+
     public void outputBuilder(){
         System.out.println("Имя - " + this.getName());
         System.out.println("Возраст - " + this.getAge());
