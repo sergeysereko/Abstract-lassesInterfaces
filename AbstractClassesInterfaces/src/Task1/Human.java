@@ -1,3 +1,5 @@
+package Task1;
+
 class Human {
     private String name;
     private int age;
@@ -41,7 +43,7 @@ class Human {
 
     @Override
     public String toString() {
-        return "Human{" +
+        return "Task1.Human{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +

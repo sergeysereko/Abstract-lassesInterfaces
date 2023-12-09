@@ -1,9 +1,11 @@
+package Task1;
+
 import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        // тест класса Human
         Human human1 = new Human();
         Human human2 = new Human("Игорь",35,"Муж.");
         System.out.print("Введите имя: ");
@@ -17,6 +19,7 @@ public class Main {
         human1.outputHuman();
         human2.outputHuman();
         human3.outputHuman();
+       // тест builder
 
     }
 
