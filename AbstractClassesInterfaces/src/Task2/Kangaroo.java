@@ -23,7 +23,7 @@ public class Kangaroo extends Animal {
 
     public void outputKangaroo(){
         System.out.println("Вид животного  - " + this.getName());
-        System.out.println("Длина прыжка - " + this.lengthJump);
+        System.out.println("Длина прыжка - " + this.lengthJump + " м.");
     }
 
     @Override

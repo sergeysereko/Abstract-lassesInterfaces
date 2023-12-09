@@ -23,9 +23,9 @@ public class Crocodile extends Animal {
         this.lengthTail = lengthTail;
     }
 
-    public void Output(){
+    public void OutputCrocodile(){
         System.out.println("Вид животного  - " + this.getName());
-        System.out.println("Длина хвоста - " + this.lengthTail);
+        System.out.println("Длина хвоста - " + this.lengthTail + " м.");
     }
 
     @Override
