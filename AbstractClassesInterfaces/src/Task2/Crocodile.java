@@ -46,7 +46,7 @@ public class Crocodile extends Animal {
 
     @Override
     public void makeASound() {
-        System.out.println(getName() + " издает характерный звук");
+        System.out.println(getName() + " издает характерный звук крокодила");
     }
 
 
