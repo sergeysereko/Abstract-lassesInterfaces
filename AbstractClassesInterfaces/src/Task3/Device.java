@@ -6,6 +6,10 @@ public class Device {
         this.name = name;
     }
 
+    public Device() {
+        this("Тестовое устройство");
+    }
+
     @Override
     public String toString() {
         return "Device{" +
