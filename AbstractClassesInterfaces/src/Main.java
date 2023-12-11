@@ -1,7 +1,7 @@
 import Task1.*;
 import Task2.*;
 import Task3.*;
-
+import Task4.*;
 
 import java.util.Scanner;
 public class Main {
@@ -69,7 +69,7 @@ public class Main {
         kangaroo.outputKangaroo();
         kangaroo.makeASound();
         kangaroo.jump();
-        */
+
 
         // test Device
         System.out.println("\n");
@@ -105,8 +105,32 @@ public class Main {
         steamboat.Show();
         steamboat.Desc();
         steamboat.Sound();
+         */
 
+        // test Money & Product
+        System.out.println("\n");
+        Money money = new Money(15, 50);
+        money.printAmount();
+
+
+        Product product = new Product("Кофе", new Money(5, 75));
+        System.out.println("Исходная цена " + product.getName() + ":");
+        product.getPrice().printAmount();
+
+        // Уменьшаем цену на 3
+        product.reducePrice(3);
+        System.out.println("Цена " + product.getName() + " после уменьшения:");
+        product.getPrice().printAmount();
+
+        Product product2 = new Product("Яйца", new Money(1, -25));
+        System.out.println("Исходная цена " + product2.getName() + ":");
+        product2.getPrice().printAmount();
+
+        product2.reducePrice(0);
+        System.out.println("Цена " + product2.getName() + " после корректировки:");
+        product2.getPrice().printAmount();
 
     }
+
 
 }
