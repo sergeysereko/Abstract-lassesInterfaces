@@ -24,7 +24,7 @@ public class Microwave extends Device {
     @Override
     public void Desc() {
         System.out.println("Описание микроволновки " + getName() + "\nМощность - " + this.power + " Вт" +
-                "Цвет - " + this.color);
+                "\nЦвет - " + this.color);
     }
 
     @Override

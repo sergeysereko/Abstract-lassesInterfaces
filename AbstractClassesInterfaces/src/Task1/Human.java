@@ -1,5 +1,5 @@
 package Task1;
-class Human {
+public class Human {
     private String name;
     private int age;
     private String gender;

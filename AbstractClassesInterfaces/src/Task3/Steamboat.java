@@ -46,8 +46,8 @@ public class Steamboat extends Device{
     @Override
     public void Desc() {
         System.out.println("Описание парохода " + getName() + "\nСкорость - " + this.speed + " узлов" +
-                "Ширина - " + this.speed + " метров" + "\nДлина - " + this.lenght + " метров" +
-                "\nВысота - " + this.height + " метров" + "Количество пассажиров - " + this.passengers);
+                "\nШирина - " + this.speed + " метров" + "\nДлина - " + this.lenght + " метров" +
+                "\nВысота - " + this.height + " метров" + "\nКоличество пассажиров - " + this.passengers);
     }
 
     @Override
