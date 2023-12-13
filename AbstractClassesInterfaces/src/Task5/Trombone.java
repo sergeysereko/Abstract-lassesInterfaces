@@ -8,6 +8,15 @@ public class Trombone extends MusicalInstrument {
         this.numberOfValves = numberOfValves;
     }
 
+    public Trombone(String name) {
+        this(name, 3);
+    }
+
+    public Trombone() {
+        this("Маршевый тромбон");
+    }
+
+
     @Override
     public void Desc() {
         System.out.println("Описание тромбона " + getName() + ": Количество клапанов - " + numberOfValves);

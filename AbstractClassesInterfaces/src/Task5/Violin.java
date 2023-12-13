@@ -8,6 +8,13 @@ public class Violin extends MusicalInstrument{
         this.typeViolin = typeViolin;
     }
 
+    public Violin(String name) {
+      this(name, "Четыре четверти");
+    }
+
+    public Violin() {
+        this("Амати");
+    }
     @Override
     public void Desc() {
         System.out.println("Описание скрипки " + getName() + ": Тип - " + typeViolin);

@@ -2,6 +2,11 @@ import Task1.*;
 import Task2.*;
 import Task3.*;
 import Task4.*;
+import Task5.Cello;
+import Task5.Trombone;
+import Task5.Ukulele;
+import Task5.Violin;
+import Task6.Array;
 
 import java.util.Scanner;
 public class Main {
@@ -105,7 +110,7 @@ public class Main {
         steamboat.Show();
         steamboat.Desc();
         steamboat.Sound();
-         */
+
 
         // test Money & Product
         System.out.println("\n");
@@ -129,6 +134,50 @@ public class Main {
         product2.reducePrice(0);
         System.out.println("Цена " + product2.getName() + " после корректировки:");
         product2.getPrice().printAmount();
+
+
+
+        // test Cello
+        System.out.println("\n");
+        Cello cello = new Cello();
+        cello.Show();
+        cello.Desc();
+        cello.History();
+        cello.Sound();
+
+        // test Trombone
+        System.out.println("\n");
+        Trombone trombone = new Trombone();
+        trombone.Show();
+        trombone.Desc();
+        trombone.History();
+        trombone.Sound();
+
+        //test Violin
+        System.out.println("\n");
+        Violin violin = new Violin();
+        violin.Show();
+        violin.Desc();
+        violin.History();
+        violin.Sound();
+
+        //test Ukulele
+        System.out.println("\n");
+        Ukulele ukulele = new Ukulele();
+        ukulele.Show();
+        ukulele.Desc();
+        ukulele.History();
+        ukulele.Sound();
+
+         */
+
+        System.out.println("\n");
+        int[] values = {10, 5, 8, 2, 7};
+        Array array = new Array(values);
+        System.out.println("Максимум: " + array.Max());
+        System.out.println("Минимум: " + array.Min());
+        System.out.println("Среднее: " + array.Avg());
+
 
     }
 
