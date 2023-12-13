@@ -7,13 +7,14 @@ import Task5.Trombone;
 import Task5.Ukulele;
 import Task5.Violin;
 import Task6.Array;
+import Task7.ArrayForSort;
 
 import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        /*
+
         // тест класса Human
         Human human1 = new Human();
         Human human2 = new Human("Игорь",35,"Муж.");
@@ -169,7 +170,7 @@ public class Main {
         ukulele.History();
         ukulele.Sound();
 
-         */
+
 
         System.out.println("\n");
         int[] values = {10, 5, 8, 2, 7};
@@ -179,7 +180,17 @@ public class Main {
         System.out.println("Среднее: " + array.Avg());
 
 
+        System.out.println("\n");
+        int[] values2 = {10, 5, 8, 2, 7};
+        ArrayForSort array2 = new ArrayForSort(values2);
+        System.out.println("Исходный массив:");
+        array2.printArray();
+        System.out.println("Сортировка по возрастанию:");
+        array2.SortAsc();
+        array2.printArray();
+        System.out.println("Сортировка по убыванию:");
+        array2.SortDesc();
+        array2.printArray();
     }
-
 
 }
